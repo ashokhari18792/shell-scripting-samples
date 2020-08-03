@@ -1,0 +1,7 @@
+> Git setting up a remote access token:
+  
+    - https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+    
+    - remove the old cached credential:
+        - https://stackoverflow.com/questions/59889768/unable-to-clone-fetch-from-private-repo-after-creating-new-github-account/59890860#59890860
+        
