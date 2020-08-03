@@ -9,6 +9,23 @@
     - git for large files (lfs):
         $ git lfs install
         $ git lfs track *.rar 
+        
+> setting up cygwin for windows environment:
+    
+    - https://github.com/lakelse/videos/tree/master/01-install-cygwin-on-windows-youtube
+    
+    cygwin installing packages
+        cygwin executable accepts params to install packages
+        cd C:\Users\503110496\cygwin-installer
+        setup-x86_64.exe -q -P nano
+        setup-x86_64.exe -q -P vim
+        https://github.com/transcode-open/apt-cyg
+        https://stackoverflow.com/questions/9260014/how-do-i-install-cygwin-components-from-the-command-line
+
+    sudo in cygwin:
+        to get the elevated privileges cygwin has to be opened with administartor in windows
+        https://github.com/nu774/sudo-for-cygwin
+        https://superuser.com/questions/122418/theres-no-sudo-command-in-cygwin
 
 > Docker:
 
