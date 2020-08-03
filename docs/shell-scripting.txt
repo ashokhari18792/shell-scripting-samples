@@ -1,0 +1,60 @@
+> GitHub:
+
+    - clone a private repo using username and password:
+        $ git clone https://ashokhari18792@github.com/ashokhari18792/interview-preparation-kit-study-material.git
+
+    - removing git tracking files from a repo:
+        $ rm -rf .git
+
+    - git for large files (lfs):
+        $ git lfs install
+        $ git lfs track *.rar 
+
+> Docker:
+
+    - docker container is not  virtual machine, Its an isolation env for running a process, the
+        life-cycle is bound to process running inside it.
+    
+    - docker inspect a docker image: 
+        $ docker inspect ubuntu
+    
+    - docker entering into a container
+        $ docker run -it ubuntu
+
+        this will start a process /bin/bash and we are entering in the interactive mode and 
+            allocated a tty for it.
+        
+        
+
+> Shell Scripting:
+
+    - print the default Shell   
+        $ echo $SHELL
+
+    - count the number of lines containing the word 'docker' in this file:
+        $ grep docker 'shell scripting' | wc -l
+
+    - sort and more:
+        $ grep docker 'shell scripting' | sort -n -k 3 | more
+
+        grep searches for word docker in the given file and outputs it to sort command 
+            which will sort the input and outputs to more, which paginates the result.
+
+        pipeline starts executing from more and its input is attached to a pipe, and so on..
+
+    - simple shell script:
+
+        #!/bin/sh
+        cat $0
+        echo "==="
+        tac $0
+
+        $0 is special variable defined by the system and contains the name of the currently 
+            running program.
+
+        $ tac - consoles the content of the file in the reverse order.
+
+        
+
+
+    
